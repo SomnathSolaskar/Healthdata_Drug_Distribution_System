@@ -4,16 +4,16 @@
 * Author : Somnath Solaskar                                            *
 *                                                                      *
 * Scope   : Views                                                      *
-*																	   *
+*								       *
 * Content: To see order related data and patient-helthcare data	       *		
-																	   *
-* Date   : 12-28-2021												   *
+*								       *
+* Date   : 12-28-2021						       *
 ************************************************************************
 ************************************************************************
 */
 
 ------------------------------------------------------------------------
---					              VIEW ORDER DETAILS
+--			VIEW ORDER DETAILS
 ------------------------------------------------------------------------
 CREATE OR REPLACE FORCE EDITIONABLE VIEW "ORDERS_OUT" (
     "PATIENT_ID",
@@ -58,9 +58,9 @@ CREATE OR REPLACE FORCE EDITIONABLE VIEW "ORDERS_OUT" (
         INNER JOIN presc_medicine pr ON ord.order_med_id = pr.order_med_id
         INNER JOIN medicines      med ON pr.medicine_id = med.medicine_id;
 		
------------------------------------------------------------------------------------------------------
---					 VIEW PATIENT - PROVIDER DETAILS
------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
+--	VIEW PATIENT - PROVIDER DETAILS
+---------------------------------------------------------------------
 		
 CREATE OR REPLACE FORCE EDITIONABLE VIEW "PATIENT_PROVIDER" (
     "PATIENT_ID",
@@ -80,9 +80,9 @@ CREATE OR REPLACE FORCE EDITIONABLE VIEW "PATIENT_PROVIDER" (
     ORDER BY
         p.patient_id;
 		
------------------------------------------------------------------------------------------------------
---					 VIEW PATIENT CLAIMS
------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------
+--			 VIEW PATIENT CLAIMS
+----------------------------------------------------------------------
 
 CREATE OR REPLACE FORCE EDITIONABLE VIEW "PATIENT_CLAIMS" (
     "CLIENT_ID",
