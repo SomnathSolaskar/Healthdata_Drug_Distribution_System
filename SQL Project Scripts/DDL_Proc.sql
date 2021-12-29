@@ -3,11 +3,11 @@
 ************************************************************************
 * Author : Somnath Solaskar                                            *
 *                                                                      *
-* Scope   : Table DDL with Proc & Sequences                            *                         *
-*																	   *
+* Scope   : Table DDL with Proc & Sequences                            *
+*								       *
 * Content: To see order related data and patient-helthcare data	       *		
-																	   *
-* Date   : 12-28-2021												   *
+*								       *
+* Date   : 12-28-2021						       *
 ************************************************************************
 ************************************************************************
 */
