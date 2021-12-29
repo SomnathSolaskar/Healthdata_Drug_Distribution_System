@@ -4,13 +4,13 @@
 * Author : Somnath Solaskar                                            *
 *                                                                      *
 * Scope   : Stored Procedures, Triggers & Functions with File          *
-*			Error Handling                                             *
-*								                                       *
-* Content: Insert Patient --> Contact --> Case --> Prescrip	           *
-*		  --> Presc_medicines -->Claims --> Claim Approval             *
-*		  --> Orders --> Order Status			                       *
-*								                                       *
-* Date   : 12-28-2021						                           *
+*			Error Handling                                 *
+*								       *
+* Content: Insert Patient --> Contact --> Case --> Prescrip	       *
+*		  --> Presc_medicines -->Claims --> Claim Approval     *
+*		  --> Orders --> Order Status			       *
+*								       *
+* Date   : 12-28-2021						       *
 ************************************************************************
 *************************************************************************/
 
