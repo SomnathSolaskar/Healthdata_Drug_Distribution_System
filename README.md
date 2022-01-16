@@ -13,7 +13,7 @@ The structure of system goes as follows:
 •	Patients will be grouped based on their insurance providers and geographic location.
 •	Orders data will be separated into categories based on the pharmacies that will be distributing the medications.
 •	A periodic structure will be provided for the medicines being prescribed to different patients
-Please refer to the Documentation for more details on Project.
+Please refer to the https://github.com/SomnathSolaskar/Healthdata_Drug_Distribution_System/blob/main/SQL%20Project%20Scripts/DMDD%20Project%20PA3.docx for more details on Project.
 
 Built With
 •	Oracle SQL Developer
