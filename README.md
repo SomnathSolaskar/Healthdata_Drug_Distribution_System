@@ -13,9 +13,11 @@ The structure of system goes as follows:
 •	Patients will be grouped based on their insurance providers and geographic location.
 •	Orders data will be separated into categories based on the pharmacies that will be distributing the medications.
 •	A periodic structure will be provided for the medicines being prescribed to different patients
+
 Please refer to the https://github.com/SomnathSolaskar/Healthdata_Drug_Distribution_System/blob/main/SQL%20Project%20Scripts/DMDD%20Project%20PA3.docx for more details on Project.
 
 Built With
+
 •	Oracle SQL Developer
 •	Oracle 21c Database Connectivity
 
@@ -26,8 +28,7 @@ Then create an account on Oracle Cloud to get Free access to the Oracle 21c data
 •	https://www.oracle.com/cloud/sign-in.html?redirect_uri=https%3A%2F%2Fcloud.oracle.com%2F
 
 Installation
-1.	Clone the repo
-git clone https://github.com/SomnathSolaskar/Healthdata_Drug_Distribution_System.git
+1.	Clone the repo : git clone https://github.com/SomnathSolaskar/Healthdata_Drug_Distribution_System.git
 
 Usage
 •	Connect Oracle SQL Developer with the Database
